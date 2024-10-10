@@ -40,3 +40,9 @@ body {
   color: var(--gray-600);
   background-color: var(--gray-300);
 }
+
+.container {
+  width: 1366px;
+  height: 100%;
+  margin-inline: auto;
+}

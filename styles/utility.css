@@ -1,0 +1,21 @@
+.h1-asap {
+  font: var(--h1-asap);
+}
+
+.sub-incon {
+  font: var(--sub-inconsolata);
+}
+.sub-incon-green {
+  font: var(--sub-inconsolata);
+  color: var(--main-green);
+}
+
+.text-sm-mavenpro {
+  font: var(--text-sm-maven-pro);
+  color: var(--gray-400);
+}
+
+.text-md-mavenpro {
+  font: var(--text-md-maven-pro);
+  color: var(--gray-500);
+}
