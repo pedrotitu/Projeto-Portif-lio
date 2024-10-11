@@ -24,7 +24,7 @@
   --font-asap: 'Asap', sans-serif;
   --h1-asap: 700 56px/120% var(--font-asap);
   --h2-asap: 700 24px/120% var(--font-asap);
-  -h3-asap: 700 16px/120% var(--font-asap);
+  --h3-asap: 700 16px/120% var(--font-asap);
 
   /* font Inconsolata */
   --font-inconsolata: 'Inconsolata', monospace;
@@ -39,6 +39,11 @@
 body {
   color: var(--gray-600);
   background-color: var(--gray-300);
+}
+
+a {
+  text-decoration: none;
+
 }
 
 .container {

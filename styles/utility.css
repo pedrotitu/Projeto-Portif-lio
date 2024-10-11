@@ -2,6 +2,15 @@
   font: var(--h1-asap);
 }
 
+.h2-asap {
+  font: var(--h2-asap);
+}
+
+.h3-asap {
+  font: var(--h3-asap);
+  color: var(--gray-600);
+}
+
 .sub-incon {
   font: var(--sub-inconsolata);
 }
@@ -19,3 +28,8 @@
   font: var(--text-md-maven-pro);
   color: var(--gray-500);
 }
+
+.card:hover {
+  border: solid 1.5px var(--gray-400);
+}
+      

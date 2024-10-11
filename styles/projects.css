@@ -1,0 +1,232 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1366px;
+  height: 917px;
+  background-color: var(--gray-200);
+  /* gap: 56px; */
+
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 56px;
+  }
+  .grid-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 1040px;
+    height: 584px;
+  }
+
+  .grid {
+    margin: 0px;
+    display: grid;
+    height: 100vh;
+    grid-template: 
+    "A B C" 280px 
+    "D E F" 280px/ 330px 330px 330px ;
+    align-content: center;
+    justify-content: center;
+    gap: 24px;
+
+    /* margin: 0 163px 144px 163px; */
+    #card1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0px;
+      box-sizing: border-box;
+
+      grid-area: A;
+      background-color: var(--gray-300);
+      border-radius: 12px;
+
+      img {
+        width: 306px;
+        height: 156px;
+
+        border-radius: 8px;
+
+        margin-left: 12px;
+        margin-right: 12px;
+        margin-top: 12px;
+        margin-bottom: 20px;
+      }
+
+      .text-card {
+        margin-inline: 16px;
+        padding: 4px;
+        margin-bottom: 17px;
+        p {
+          margin-top: 8px;
+        }
+      }
+    }
+    #card2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0px;
+      box-sizing: border-box;
+
+      grid-area: B;
+      background-color: var(--gray-300);
+      border-radius: 12px;
+
+      img {
+        width: 306px;
+        height: 156px;
+
+        border-radius: 8px;
+
+        margin-left: 12px;
+        margin-right: 12px;
+        margin-top: 12px;
+        margin-bottom: 20px;
+      }
+
+      .text-card {
+        margin-inline: 16px;
+        padding: 4px;
+        margin-bottom: 17px;
+        p {
+          margin-top: 8px;
+        }
+      }
+    }
+    #card3 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0px;
+      box-sizing: border-box;
+
+      grid-area: C;
+      background-color: var(--gray-300);
+      border-radius: 12px;
+
+      img {
+        width: 306px;
+        height: 156px;
+
+        border-radius: 8px;
+
+        margin-left: 12px;
+        margin-right: 12px;
+        margin-top: 12px;
+        margin-bottom: 20px;
+      }
+
+      .text-card {
+        margin-inline: 16px;
+        padding: 4px;
+        margin-bottom: 17px;
+        p {
+          margin-top: 8px;
+        }
+      }
+    }
+    #card4 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0px;
+      box-sizing: border-box;
+
+      grid-area: D;
+      background-color: var(--gray-300);
+      border-radius: 12px;
+
+      img {
+        width: 306px;
+        height: 156px;
+
+        border-radius: 8px;
+
+        margin-left: 12px;
+        margin-right: 12px;
+        margin-top: 12px;
+        margin-bottom: 20px;
+      }
+
+      .text-card {
+        margin-inline: 16px;
+        padding: 4px;
+        margin-bottom: 17px;
+        p {
+          margin-top: 8px;
+        }
+      }
+    }
+    #card5 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0px;
+      box-sizing: border-box;
+
+      grid-area: E;
+      background-color: var(--gray-300);
+      border-radius: 12px;
+
+      img {
+        width: 306px;
+        height: 156px;
+
+        border-radius: 8px;
+
+        margin-left: 12px;
+        margin-right: 12px;
+        margin-top: 12px;
+        margin-bottom: 20px;
+      }
+
+      .text-card {
+        margin-inline: 16px;
+        padding: 4px;
+        margin-bottom: 17px;
+        p {
+          margin-top: 8px;
+        }
+      }
+    }
+    #card6 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0px;
+      box-sizing: border-box;
+
+      grid-area: F;
+      background-color: var(--gray-300);
+      border-radius: 12px;
+
+      img {
+        width: 306px;
+        height: 156px;
+
+        border-radius: 8px;
+
+        margin-left: 12px;
+        margin-right: 12px;
+        margin-top: 12px;
+        margin-bottom: 20px;
+      }
+
+      .text-card {
+        margin-inline: 16px;
+        padding: 4px;
+        margin-bottom: 17px;
+        p {
+          margin-top: 8px;
+        }
+      }
+    }
+  }
+}
