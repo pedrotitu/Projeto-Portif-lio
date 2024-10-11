@@ -32,4 +32,8 @@
 .card:hover {
   border: solid 1.5px var(--gray-400);
 }
-      
+
+.socialButton:hover {
+  border: solid 1.5px var(--main-blue);
+  border-radius: 8px;
+}

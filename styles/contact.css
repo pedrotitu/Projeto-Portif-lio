@@ -1,0 +1,203 @@
+.contact {
+  width: 1366px;
+  height: 787px;
+
+  gap: 48px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  background-image: url(/assets/images/Background_Contacts.png);
+  background-size: 1366px 787px;
+
+  #header-contact {
+    margin-top: 128px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    
+
+    width: 400px;
+    height: 320px;
+
+    #button1 {
+      display: flex;
+      align-items: center;
+
+      background-color: var(--gray-300);
+      border: none;
+      width: 400px;
+      height: 68px;
+      border-radius: 8px;
+
+      padding: 20px;
+
+      .icon-contact {
+        padding: 2.63px;
+        width: 28px;
+        height: 28px;
+
+        img::nth-child(1) {
+          width: 23px;
+          height: 23px;
+        }
+      }
+
+      #text-card {
+        width: 288px;
+        margin-left: 12px;
+        text-align: start;
+        padding-block: 3px;
+      }
+
+      .arrow {
+        width: 20px;
+        height: 20px;
+        padding: 4.37px;
+
+        img {
+          width: 11px;
+          height: 11px;
+        }
+      }
+    }
+
+    #button2 {
+      display: flex;
+      align-items: center;
+
+      background-color: var(--gray-300);
+      border: none;
+      width: 400px;
+      height: 68px;
+      border-radius: 8px;
+
+      padding: 20px;
+
+      .icon-contact {
+        padding: 2.63px;
+        width: 28px;
+        height: 28px;
+
+        img::nth-child(1) {
+          width: 23px;
+          height: 23px;
+        }
+      }
+
+      #text-card {
+        width: 288px;
+        margin-left: 12px;
+        text-align: start;
+        padding-block: 3px;
+      }
+
+      .arrow {
+        width: 20px;
+        height: 20px;
+        padding: 4.37px;
+
+        img {
+          width: 11px;
+          height: 11px;
+        }
+      }
+    }
+
+    #button3 {
+      display: flex;
+      align-items: center;
+
+      background-color: var(--gray-300);
+      border: none;
+      width: 400px;
+      height: 68px;
+      border-radius: 8px;
+
+      padding: 20px;
+
+      .icon-contact {
+        padding: 2.63px;
+        width: 28px;
+        height: 28px;
+
+        img::nth-child(1) {
+          width: 23px;
+          height: 23px;
+        }
+      }
+
+      #text-card {
+        width: 288px;
+        margin-left: 12px;
+        text-align: start;
+        padding-block: 3px;
+      }
+
+      .arrow {
+        width: 20px;
+        height: 20px;
+        padding: 4.37px;
+
+        img {
+          width: 11px;
+          height: 11px;
+        }
+      }
+    }
+
+    #button4 {
+      display: flex;
+      align-items: center;
+
+      background-color: var(--gray-300);
+      border: none;
+      width: 400px;
+      height: 68px;
+      border-radius: 8px;
+
+      padding: 20px;
+
+      .icon-contact {
+        padding: 2.63px;
+        width: 28px;
+        height: 28px;
+
+        img::nth-child(1) {
+          width: 23px;
+          height: 23px;
+        }
+      }
+
+      #text-card {
+        width: 288px;
+        margin-left: 12px;
+        text-align: start;
+        padding-block: 3px;
+      }
+
+      .arrow {
+        width: 20px;
+        height: 20px;
+        padding: 4.37px;
+
+        img {
+          width: 11px;
+          height: 11px;
+        }
+      }
+    }
+
+  }
+  
+
+}
