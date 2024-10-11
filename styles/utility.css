@@ -36,4 +36,8 @@
 .socialButton:hover {
   border: solid 1.5px var(--main-blue);
   border-radius: 8px;
+  
+  .buttons {
+    cursor: pointer;
+  }
 }
