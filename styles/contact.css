@@ -8,7 +8,7 @@
   flex-direction: column;
   align-items: center;
   
-  background-image: url(assets/images/bg_contacts.svg);
+  background-image: url(/assets/images/bg_contacts.svg);
   background-size: 1366px 787px;
 
   #header-contact {
