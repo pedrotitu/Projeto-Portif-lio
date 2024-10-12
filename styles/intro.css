@@ -5,7 +5,7 @@
   
   width: 1366px;
   height: 750px;
-  background-image: url(/assets/images/bg_intro.svg);
+  background: url(/assets/images/bg_intro.svg);
   background-size: 1366px 750px;
 
   #down_icon {
